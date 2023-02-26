@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ded5128500ae864881a5723f28b56ba, type: 3}
+  m_Name: AudioManager
+  m_EditorClassIdentifier: 
+  musicVolume: 1
+  soundVolume: 1
+  soundDatas:
+  - name: Walk
+    sound: {fileID: 8300000, guid: cd539b7ebf049a141921291c1c8b5100, type: 3}
+    volume: 0.089
+    pitch: 0.95
+    spacialBlend: 0
+  - name: Dash
+    sound: {fileID: 8300000, guid: be54d0280f9fa6f4985179e20ddc59f3, type: 3}
+    volume: 0.193
+    pitch: 1.28
+    spacialBlend: 0
+  - name: Grapple
+    sound: {fileID: 8300000, guid: 13f05a310ccb5804984f5d25a25e5514, type: 3}
+    volume: 0.123
+    pitch: 1.08
+    spacialBlend: 0
+  musicDatas:
+  - name: 
+    sound: {fileID: 8300000, guid: a5f3e097ffb7a7b4bb535348198efe69, type: 3}
+    volume: 0
+    pitch: 1
+    spacialBlend: 0
+  - name: 
+    sound: {fileID: 8300000, guid: fda53b2c9aefa3b4e91a9738b6d8e3a3, type: 3}
+    volume: 0
+    pitch: 1
+    spacialBlend: 0
